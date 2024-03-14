@@ -20,4 +20,3 @@ dependencies:
   - linecheck
   - taxcalc
   - ogusa
-  - microdf-python
