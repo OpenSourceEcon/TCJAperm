@@ -1,0 +1,22 @@
+name: tcjaperm-dev
+channels:
+- conda-forge
+dependencies:
+- python>=3.10,<3.12
+- numpy
+- scipy
+- pandas
+- ipython
+- matplotlib
+- bokeh
+- jupyter
+- black
+- setuptools
+- openpyxl
+- pytest
+- coverage
+- pip
+- pip:
+  - linecheck
+  - taxcalc
+  - ogusa
