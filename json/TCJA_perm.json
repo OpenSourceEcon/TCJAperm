@@ -5,16 +5,15 @@
 // Reform_Baseline: policy_current_law.json (Mar. 14, 2024)
 // Reform_Description: TCJA Permanency Act (HR 976)
 // - 1. Make permanent increases to above the line dedutions (ALD_*)
-// - 2. Make permanent extra personal exemptions (II_em*)
-// - 3. Make permanent increased standard deduction (STD)
-// - 4. Maintain other individual deduction parameters (ID_*)
-// - 5. Remove 2026 expirations in individual employment and pass through
-//      income tax rates and brackets (II_rt*, II_brk*, PT_rt*, PT_brk*)
-// - 6. Remove 2026 expirations in pass through qualifying buisness income
-//      deduction (PT_qbid_*)
+// - 4. Make permanent extra personal exemptions (II_em*)
+// - 2. Make permanent increased standard deduction and other individual
+//      deduction parameters (STD, ID_*)
+// - 1. Remove 2026 expirations in individual employment and pass through
+//      income tax rates and brackets and qualifying business income
+//      deduction (II_rt*, II_brk*, PT_rt*, PT_brk*, PT_qbid_*)
 // - 7. Remove expiration of Alternative Minimum Tax exemption parameters
 //      (AMT*)
-// - 8. Remove expiration of maximum nonrefundable dependent credit (CTC_*,
+// - 3. Remove expiration of maximum nonrefundable dependent credit (CTC_*,
 //      ACTC_*, ODC_c)
 {
     "ALD_AlimonyPaid_hc": {"2026": 1.0},
@@ -41,7 +40,7 @@
     "II_brk3": {"2026": [89075.0, 178150.0, 89075.0, 89050.0, 178150.0]},
     "II_brk4": {"2026": [170050.0, 340100.0, 170050.0, 170050.0, 340100.0]},
     "II_brk5": {"2026": [215950.0, 431900.0, 215950.0, 215950.0, 431900.0]},
-    "II_brk6": {"2018": [539900.0, 647850.0, 323925.0, 539900.0, 647850.0]},
+    "II_brk6": {"2026": [539900.0, 647850.0, 323925.0, 539900.0, 647850.0]},
     "PT_rt2": {"2026": 0.12},
     "PT_rt3": {"2026": 0.22},
     "PT_rt4": {"2026": 0.24},
